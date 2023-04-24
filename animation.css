@@ -12,9 +12,22 @@ body{
     background-image: center;
     position: relative;
     overflow-x: hidden;
-    
-
 }
+h1{
+    text-align: center;
+    font-size: 42px;
+    margin-top: 18px;
+}
+.E1{
+    background-color: orange;
+}
+.e2{
+    background-color: white;
+}
+.e3{
+    background-color: green;
+}
+
 .road{
     background-image: url(./road.jpg);
     height: 180px;
@@ -44,7 +57,7 @@ body{
     width:80px;
     position:relative;
     left:59%;
-    top:137px ; 
+    top:90px ; 
     
 }
 
@@ -70,9 +83,10 @@ background-image: url(./sun.png);
 height: 90px;
 width: 90px;
 position:absolute;
+top: 80px;
 background-size: cover;
 right:0px;
-animation: sun 5s infinite linear;
+animation: sun 8s infinite linear;
 }
 
 @keyframes road{
@@ -105,6 +119,6 @@ animation: sun 5s infinite linear;
 
 @keyframes sun{
     100%{
-        transform:translateX(-160px)
+        transform:translateX(-490px)
     }
 }
